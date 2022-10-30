@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./src
+        working-directory: ./src/web
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
-          node-version-file: 'src/.nvmrc'
+          node-version-file: 'src/web/.nvmrc'
       - run: npm ci
       - run: npm run build
       - run: npm test

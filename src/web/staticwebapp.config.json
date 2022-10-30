@@ -1,0 +1,10 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+
+  "routes": [],
+  "platform": {
+    "apiRuntime": "dotnet:6.0"
+  }
+}
