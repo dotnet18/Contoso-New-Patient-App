@@ -1,14 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <Nullable>enable</Nullable>
-    <UserSecretsId>b3b576fc-e636-436a-b55b-31faf53be64d</UserSecretsId>
-  </PropertyGroup>
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
-    <UserSecretsId>6911de37-f810-45d7-82de-404c359857aa</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
