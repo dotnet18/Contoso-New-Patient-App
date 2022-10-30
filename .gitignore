@@ -3,3 +3,5 @@
 __azurite*
 __blobstorage__
 __queuestorage__
+src/dist
+src/node_modules
